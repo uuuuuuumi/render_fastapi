@@ -2,6 +2,8 @@ from typing import Optional
 
 from fastapi import FastAPI
 
+from pydantic import BaseModel
+
 from fastapi.responses import HTMLResponse #インポート
 
 import random  # randomライブラリを追加
@@ -92,6 +94,10 @@ def index():
     """
     return HTMLResponse(content=html_content, status_code=200)
 
+class PresentRequest(BaseModel):
+    name: str
+    gift: str
+
 @app.post("/present")
-async def new_naming(present):
-    return {"response": f"サーバです。メリークリスマス！ {present}ありがとう。お返しはキャンディーです。"}
+async def send_present(present: PresentRequest):
+    return {"message": f"サーバです。メリークリスマス！ {present.name}さん、{present.gift}をありがとう。お返しはキャンディーです。"}
