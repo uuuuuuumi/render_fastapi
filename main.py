@@ -95,6 +95,7 @@ def index():
     return HTMLResponse(content=html_content, status_code=200)
 
 class PresentRequest(BaseModel):
+    #strの部分にそれぞれ入力する
     name: str
     gift: str
 
