@@ -7,16 +7,8 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Hello!"}
 
 @app.get("/items/{item_id}")
 def read_item(item_id: int, q: Optional[str] = None):
     return {"item_id": item_id, "q": q}
-
-    @app.get("/omikuji")
-def omikuji():
-    omikuji_list = [
-        
-    ]
-    
-    return {"result" : omikuji_list[random.randrange(10)]}
