@@ -41,6 +41,11 @@ def index():
     <html>
         <head>
             <title>Some HTML in here</title>
+            <style>
+        body {
+            background-color: #D2F2F1;
+        }
+    </style>
         </head>
        <body>
     <h1>自己紹介</h1>
@@ -70,28 +75,15 @@ def index():
     </section>
 
     <section>
-        <h2>おすすめのYouTubeチャンネル</h2>
-        <p><a href="https://www.youtube.com/@yoninochannel">yoninochannel</a></p>
+        <h2>おすすめのYouTubeチャンネル🎥</h2>
+        <p><a href="https://www.youtube.com/@yoninochannel">よにのちゃんねるを登録👀</a></p>
+        <p>#75が泣けるほど笑えます😂</p>
     </section>
 
     <section>
-        <h2>今日5回聞いた歌</h2>
+        <h2>今日5回聞いた歌🎵</h2>
         <p>timelesz ｢Anthem｣</p>
-        <p><a href="https://www.youtube.com/watch?v=omk3tMOIJZo&list=RDomk3tMOIJZo&start_radio=1">YouTubeで聴く</a></p>
-    </section>
-
-    <section>
-        <h2>HTMLサンプル</h2>
-        <pre>
-            &lt;html&gt;
-                &lt;head&gt;
-                    &lt;title&gt;Some HTML in here&lt;/title&gt;
-                &lt;/head&gt;
-                &lt;body&gt;
-                    &lt;h1&gt;Look ma! HTML!&lt;/h1&gt;
-                &lt;/body&gt;
-            &lt;/html&gt;
-        </pre>
+        <p><a href="https://www.youtube.com/watch?v=omk3tMOIJZo&list=RDomk3tMOIJZo&start_radio=1">YouTubeで聴いてみよう🎧</a></p>
     </section>
 
 </body>
