@@ -40,7 +40,7 @@ def index():
     html_content = """
     <html>
         <head>
-            <title>Some HTML in here</title>
+            <title>自己紹介</title>
             <style>
         body {
             background-color: #D2F2F1;
@@ -54,7 +54,7 @@ def index():
         <h2>基本情報</h2>
         <ul>
             <li>名前：非公開</li>
-            <li>誕生日：2003年10月10日</li>
+            <li>誕生日：2003年10月10日かも🙄</li>
             <li>趣味：
                 <ul>
                     <li>旅行に行くこと</li>
@@ -71,6 +71,7 @@ def index():
                 </ul>
             </li>
             <li>好きなアイドル：KAT-TUN</li>
+            <p><a href="https://starto.jp/s/p/artist/14?ima=1223">ぜひ見てね😍</a></p>
         </ul>
     </section>
 
